@@ -1,0 +1,1271 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "acquisitionInstruments": [
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Light Detection and Ranging"
+                    }, 
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Multibeam Swath Bathymetry System"
+                    }, 
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Sound Navigation and Ranging"
+                    }
+                ], 
+                "acquisitionOperations": [
+                    {
+                        "operationDescription": null, 
+                        "operationIdentifier": "Tsunami Inundation Gridding Project", 
+                        "operationStatus": null, 
+                        "operationType": null
+                    }
+                ], 
+                "acquisitionPlatforms": [
+                    {
+                        "platformDescription": null, 
+                        "platformIdentifier": "Digital Elevation Model", 
+                        "platformSponsor": []
+                    }
+                ], 
+                "alternateTitle": null, 
+                "contacts": [
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": "resourceProvider"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "European Petroleum Survey Group", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": null
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/OAR/PMEL/NCTR > NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory, OAR, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Elliot Lim", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Lisa A. Taylor", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Barry W. Eakins", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Kelly S. Carignan", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Pamela R. Medley", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Dorothy Z. Friday", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": "Jesse Varner", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Barry W. Eakins", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA > National Aeronautics and Space Administration", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOI/USGS > U.S. Geological Survey, Department of the Interior", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "METI/NASA > Ministry of Economy, Trade, and Industry of Japan and the U.S. National Aeronautics and Space Administration", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": "Kelly Carignan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Anna Milan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }
+                ], 
+                "creationDate": null, 
+                "dataFormats": [
+                    "ESRI ARC ASCII"
+                ], 
+                "description": "NOAA's National Geophysical Data Center (NGDC) is building high-resolution digital elevation models (DEMs) for select U.S. coastal regions. These integrated bathymetric-topographic DEMs are used to support tsunami forecasting and modeling efforts at the NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory (PMEL). The DEMs are part of the tsunami forecast system SIFT (Short-term Inundation Forecasting for Tsunamis) currently being developed by PMEL for the NOAA Tsunami Warning Centers, and are used in the MOST (Method of Splitting Tsunami) model developed by PMEL to simulate tsunamigeneration, propagation, and inundation. Bathymetric, topographic, and shoreline data used in DEM compilation are obtained from various sources, including NGDC, the U.S. National Ocean Service (NOS), the U.S. Geological Survey (USGS), the National Aeronautic Space Administration (NASA), and other federal, state, and local government agencies, and academic          institutions. DEMs are referenced to the vertical tidal datum of Mean High Water (MHW) and horizontal datum of World Geodetic System 1984 (WGS84). Grid spacings for the DEM is 1 arc-second (30m).", 
+                "doi": null, 
+                "fileIdentifier": "gov.noaa.ngdc.mgg.dem:590", 
+                "gcmdDataCenters": [
+                    "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                    "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                ], 
+                "gcmdDataResolution": [
+                    "H: 1 meter - < 30 meters", 
+                    "V: < 1 meter"
+                ], 
+                "gcmdInstruments": [], 
+                "gcmdLocations": [
+                    "Continent > North America > United States Of America > Alaska", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean > Aleutian Islands", 
+                    "Vertical Location > Land Surface", 
+                    "Vertical Location > Sea Floor"
+                ], 
+                "gcmdPlatforms": [
+                    "DEM > Digital Elevation Model"
+                ], 
+                "gcmdProjects": [
+                    "ICSU-WDS > International Council for Science - World Data System"
+                ], 
+                "gcmdScience": [
+                    "Oceans > Bathymetry/Seafloor Topography > Seafloor Topography", 
+                    "Oceans > Bathymetry/Seafloor Topography > Bathymetry", 
+                    "Oceans > Bathymetry/Seafloor Topography > Water Depth", 
+                    "Land Surface > Topography > Terrain Elevation", 
+                    "Land Surface > Topography > Topographical Relief Maps", 
+                    "Oceans > Coastal Processes > Coastal Elevation"
+                ], 
+                "keywords": [
+                    "Coastal Relief", 
+                    "Gridded elevations", 
+                    "Integrated bathymetry and topography", 
+                    "Nikolski", 
+                    "Umnak Island", 
+                    "Mt. Vsevidof", 
+                    "Aleutian Islands"
+                ], 
+                "links": [
+                    {
+                        "linkDescription": "Download DEM, metadata and readme file.", 
+                        "linkFunction": "download", 
+                        "linkName": "Nikolski, Alaska Coastal Digital Elevation Model ASCII DEM", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getArchive/590?gridFormat=ESRI+Arc+ASCII"
+                    }, 
+                    {
+                        "linkDescription": "Information, preview and access DEM, metadata record and development report.", 
+                        "linkFunction": "information", 
+                        "linkName": "Nikolski, Alaska Coastal Digital Elevation Model Homepage", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/download/590"
+                    }, 
+                    {
+                        "linkDescription": "Text search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "DEM text search tool", 
+                        "linkUrl": "http://www.ngdc.noaa.gov/dem/squareCellGrid/search"
+                    }, 
+                    {
+                        "linkDescription": "Graphic geo-spatial search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "Map Interface", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/map"
+                    }
+                ], 
+                "modifiedDate": "2015-09-03", 
+                "parentIdentifier": null, 
+                "publicationDate": "2010-02-13", 
+                "revisionDate": null, 
+                "spatialBounding": {
+                    "coordinates": [
+                        [
+                            -169.66, 
+                            53.189999999999998
+                        ], 
+                        [
+                            -168.09, 
+                            52.289999999999999
+                        ]
+                    ], 
+                    "type": "envelope"
+                }, 
+                "stagedDate": 1481311744179, 
+                "temporalBounding": {
+                    "beginDate": "1937-01-01", 
+                    "beginIndeterminate": null, 
+                    "endDate": "2009-01-01", 
+                    "endIndeterminate": null, 
+                    "instant": null, 
+                    "instantIndeterminate": null
+                }, 
+                "thumbnail": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getGraphic/590", 
+                "title": "Nikolski, Alaska Coastal Digital Elevation Model", 
+                "topicCategories": [
+                    "elevation"
+                ]
+            }, 
+            "id": "gov.noaa.ngdc.mgg.dem:590", 
+            "type": "collection"
+        }, 
+        {
+            "attributes": {
+                "acquisitionInstruments": [
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Multibeam Swath Bathymetry System"
+                    }, 
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Sound Navigation and Ranging"
+                    }
+                ], 
+                "acquisitionOperations": [
+                    {
+                        "operationDescription": null, 
+                        "operationIdentifier": "Tsunami Inundation Gridding Project", 
+                        "operationStatus": null, 
+                        "operationType": null
+                    }
+                ], 
+                "acquisitionPlatforms": [
+                    {
+                        "platformDescription": null, 
+                        "platformIdentifier": "Digital Elevation Model", 
+                        "platformSponsor": []
+                    }
+                ], 
+                "alternateTitle": null, 
+                "contacts": [
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": "resourceProvider"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "European Petroleum Survey Group", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": null
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/OAR/PMEL/NCTR > NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory, OAR, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Kelly S. Carignan", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Lisa A. Taylor", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Barry W. Eakins", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Robin R. Warnken", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Elliot Lim", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Pamela R. Medley", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": "Jesse Varner", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Barry W. Eakins", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NOS/OCS > Office of Coast Survey, National Ocean Service, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA > National Aeronautics and Space Administration", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": "Peng, Ge", 
+                        "organizationName": "CICS-NC/NCEI", 
+                        "role": "author"
+                    }, 
+                    {
+                        "individualName": "Kelly Carignan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Anna Milan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }
+                ], 
+                "creationDate": null, 
+                "dataFormats": [
+                    "ESRI ARC ASCII", 
+                    "NETCDF"
+                ], 
+                "description": "NOAA's National Geophysical Data Center (NGDC) is building high-resolution digital elevation models (DEMs) for select U.S. coastal regions. These integrated bathymetric-topographic DEMs are used to support tsunami forecasting and modeling efforts at the NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory (PMEL). The DEMs are part of the tsunami forecast system SIFT (Short-term Inundation Forecasting for Tsunamis) currently being developed by PMEL for the NOAA Tsunami Warning Centers, and are used in the MOST (Method of Splitting Tsunami) model developed by PMEL to simulate tsunami generation, propagation, and inundation. Bathymetric, topographic, and shoreline data used in DEM compilation are obtained from various sources, including NGDC, the U.S. National Ocean Service (NOS), the U.S. Geological Survey (USGS), the U.S. Army Corps of Engineers (USACE), the Federal Emergency Management Agency (FEMA), and other federal, state, and local          government agencies, academic institutions, and private companies. DEMs are referenced to the vertical tidal datum of Mean High Water (MHW) and horizontal datum of World Geodetic System 1984 (WGS84). Grid spacings for the DEMs range from 1/3 arc-second (~10 meters) to 3 arc-seconds (~90 meters).", 
+                "doi": null, 
+                "fileIdentifier": "gov.noaa.ngdc.mgg.dem:632", 
+                "gcmdDataCenters": [
+                    "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                    "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                ], 
+                "gcmdDataResolution": [
+                    "H: 1 meter - < 30 meters", 
+                    "V: < 1 meter"
+                ], 
+                "gcmdInstruments": [], 
+                "gcmdLocations": [
+                    "Continent > North America > United States Of America > Alaska", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean > Aleutian Islands", 
+                    "Vertical Location > Land Surface", 
+                    "Vertical Location > Sea Floor"
+                ], 
+                "gcmdPlatforms": [
+                    "DEM > Digital Elevation Model"
+                ], 
+                "gcmdProjects": [
+                    "ICSU-WDS > International Council for Science - World Data System"
+                ], 
+                "gcmdScience": [
+                    "Oceans > Bathymetry/Seafloor Topography > Seafloor Topography", 
+                    "Oceans > Bathymetry/Seafloor Topography > Bathymetry", 
+                    "Oceans > Bathymetry/Seafloor Topography > Water Depth", 
+                    "Land Surface > Topography > Terrain Elevation", 
+                    "Land Surface > Topography > Topographical Relief Maps", 
+                    "Oceans > Coastal Processes > Coastal Elevation"
+                ], 
+                "keywords": [
+                    "Coastal Relief", 
+                    "Gridded elevations", 
+                    "Integrated bathymetry and topography", 
+                    "Shemya", 
+                    "Shemya Island", 
+                    "Attu Island", 
+                    "Agattu Island", 
+                    "Alaid Island", 
+                    "Nizki Island", 
+                    "Semichi Islands", 
+                    "Near Islands", 
+                    "Aleutian Islands", 
+                    "Alaska"
+                ], 
+                "links": [
+                    {
+                        "linkDescription": "Download DEM, metadata and readme file.", 
+                        "linkFunction": "download", 
+                        "linkName": "Shemya, Alaska Coastal Digital Elevation Model ASCII DEM", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getArchive/632?gridFormat=ESRI+Arc+ASCII"
+                    }, 
+                    {
+                        "linkDescription": "Information, preview and access DEM, metadata record and development report.", 
+                        "linkFunction": "information", 
+                        "linkName": "Shemya, Alaska Coastal Digital Elevation Model Homepage", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/download/632"
+                    }, 
+                    {
+                        "linkDescription": "Text search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "DEM text search tool", 
+                        "linkUrl": "http://www.ngdc.noaa.gov/dem/squareCellGrid/search"
+                    }, 
+                    {
+                        "linkDescription": "Graphic geo-spatial search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "Map Interface", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/map"
+                    }, 
+                    {
+                        "linkDescription": "OPeNDAP Dataset Access Form", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/shemya_ak_1_sec.nc.html"
+                    }, 
+                    {
+                        "linkDescription": "Download NetCDF File", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/fileServer/regional/shemya_ak_1_sec.nc"
+                    }, 
+                    {
+                        "linkDescription": "Web Coverage Service GetCapabilities", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/wcs/regional/shemya_ak_1_sec.nc?service=WCS&version=1.0.0&request=GetCapabilities"
+                    }, 
+                    {
+                        "linkDescription": "Web Map Service GetCapabilities", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/wms/regional/shemya_ak_1_sec.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+                    }, 
+                    {
+                        "linkDescription": "Download a subset of the NetCDF", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/ncss/regional/shemya_ak_1_sec.nc/dataset.html"
+                    }, 
+                    {
+                        "linkDescription": "NetCDF Markup Language file", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/ncml/regional/shemya_ak_1_sec.nc?catalog=https%3A%2F%2Fwww.ngdc.noaa.gov%2Fthredds%2Fcatalog%2Fregional%2Fcatalog.html&dataset=regionalDatasetScan%2Fshemya_ak_1_sec.nc"
+                    }
+                ], 
+                "modifiedDate": "2016-03-11", 
+                "parentIdentifier": null, 
+                "publicationDate": "2009-07-31", 
+                "revisionDate": null, 
+                "spatialBounding": {
+                    "coordinates": [
+                        [
+                            172.44999999999999, 
+                            53.060000000000002
+                        ], 
+                        [
+                            174.21000000000001, 
+                            52.270000000000003
+                        ]
+                    ], 
+                    "type": "envelope"
+                }, 
+                "stagedDate": 1481311744474, 
+                "temporalBounding": {
+                    "beginDate": "1933-01-01", 
+                    "beginIndeterminate": null, 
+                    "endDate": "2009-01-01", 
+                    "endIndeterminate": null, 
+                    "instant": null, 
+                    "instantIndeterminate": null
+                }, 
+                "thumbnail": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getGraphic/632", 
+                "title": "Shemya, Alaska Coastal Digital Elevation Model", 
+                "topicCategories": [
+                    "elevation"
+                ]
+            }, 
+            "id": "gov.noaa.ngdc.mgg.dem:632", 
+            "type": "collection"
+        }, 
+        {
+            "attributes": {
+                "acquisitionInstruments": [
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Light Detection and Ranging"
+                    }, 
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Multibeam Swath Bathymetry System"
+                    }, 
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Sound Navigation and Ranging"
+                    }
+                ], 
+                "acquisitionOperations": [
+                    {
+                        "operationDescription": null, 
+                        "operationIdentifier": "Tsunami Inundation Gridding Project", 
+                        "operationStatus": null, 
+                        "operationType": null
+                    }
+                ], 
+                "acquisitionPlatforms": [
+                    {
+                        "platformDescription": null, 
+                        "platformIdentifier": "Digital Elevation Model", 
+                        "platformSponsor": []
+                    }
+                ], 
+                "alternateTitle": null, 
+                "contacts": [
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": "resourceProvider"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "European Petroleum Survey Group", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": null
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/OAR/PMEL/NCTR > NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory, OAR, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Kelly S. Carignan", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Lisa A. Taylor", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Barry W. Eakins", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Robin R. Warnken", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Elliot Lim", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Pamela R. Medley", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": "Jesse Varner", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Barry W. Eakins", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NOS/OCS > Office of Coast Survey, National Ocean Service, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "University of California, Scripps Institute of Oceanography", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA > National Aeronautics and Space Administration", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": "Peng, Ge", 
+                        "organizationName": "CICS-NC/NCEI", 
+                        "role": "author"
+                    }, 
+                    {
+                        "individualName": "Kelly Carignan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Anna Milan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }
+                ], 
+                "creationDate": null, 
+                "dataFormats": [
+                    "ESRI ARC ASCII", 
+                    "NETCDF"
+                ], 
+                "description": "NOAA's National Geophysical Data Center (NGDC) is building high-resolution digital elevation models (DEMs) for select U.S. coastal regions. These integrated bathymetric-topographic DEMs are used to support tsunami forecasting and modeling efforts at the NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory (PMEL). The DEMs are part of the tsunami forecast system SIFT (Short-term Inundation Forecasting for Tsunamis) currently being developed by PMEL for the NOAA Tsunami Warning Centers, and are used in the MOST (Method of Splitting Tsunami) model developed by PMEL to simulate tsunami generation, propagation, and inundation. Bathymetric, topographic, and shoreline data used in DEM compilation are obtained from various sources, including NGDC, the U.S. National Ocean Service (NOS), the U.S. Geological Survey (USGS), the U.S. Army Corps of Engineers (USACE), the Federal Emergency Management Agency (FEMA), and other federal, state, and local          government agencies, academic institutions, and private companies. DEMs are referenced to the vertical tidal datum of Mean High Water (MHW) and horizontal datum of World Geodetic System 1984 (WGS84). Cell size for the DEMs ranges from 1/3 arc-second (~10 meters) to 3 arc-seconds (~90 meters).", 
+                "doi": null, 
+                "fileIdentifier": "gov.noaa.ngdc.mgg.dem:258", 
+                "gcmdDataCenters": [
+                    "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                    "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                ], 
+                "gcmdDataResolution": [
+                    "H: 1 meter - < 30 meters", 
+                    "V: < 1 meter"
+                ], 
+                "gcmdInstruments": [], 
+                "gcmdLocations": [
+                    "Continent > North America > United States Of America > Alaska", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean > Aleutian Islands", 
+                    "Vertical Location > Land Surface", 
+                    "Vertical Location > Sea Floor"
+                ], 
+                "gcmdPlatforms": [
+                    "DEM > Digital Elevation Model"
+                ], 
+                "gcmdProjects": [
+                    "ICSU-WDS > International Council for Science - World Data System"
+                ], 
+                "gcmdScience": [
+                    "Oceans > Bathymetry/Seafloor Topography > Seafloor Topography", 
+                    "Oceans > Bathymetry/Seafloor Topography > Bathymetry", 
+                    "Oceans > Bathymetry/Seafloor Topography > Water Depth", 
+                    "Land Surface > Topography > Terrain Elevation", 
+                    "Land Surface > Topography > Topographical Relief Maps", 
+                    "Oceans > Coastal Processes > Coastal Elevation"
+                ], 
+                "keywords": [
+                    "Coastal Relief", 
+                    "Gridded elevations", 
+                    "Integrated bathymetry and topography", 
+                    "Adak", 
+                    "Adak Island", 
+                    "Andreanof Islands", 
+                    "Aleutian Islands"
+                ], 
+                "links": [
+                    {
+                        "linkDescription": "Download DEM, metadata and readme file.", 
+                        "linkFunction": "download", 
+                        "linkName": "Adak, Alaska Coastal Digital Elevation Model ASCII DEM", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getArchive/258?gridFormat=ESRI+Arc+ASCII"
+                    }, 
+                    {
+                        "linkDescription": "Information, preview and access DEM, metadata record and development report.", 
+                        "linkFunction": "information", 
+                        "linkName": "Adak, Alaska Coastal Digital Elevation Model Homepage", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/download/258"
+                    }, 
+                    {
+                        "linkDescription": "Text search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "DEM text search tool", 
+                        "linkUrl": "http://www.ngdc.noaa.gov/dem/squareCellGrid/search"
+                    }, 
+                    {
+                        "linkDescription": "Graphic geo-spatial search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "Map Interface", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/map"
+                    }, 
+                    {
+                        "linkDescription": "OPeNDAP Dataset Access Form", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/adak_ak_1sec.nc.html"
+                    }, 
+                    {
+                        "linkDescription": "Download NetCDF File", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/fileServer/regional/adak_ak_1sec.nc"
+                    }, 
+                    {
+                        "linkDescription": "Web Coverage Service GetCapabilities", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/wcs/regional/adak_ak_1sec.nc?service=WCS&version=1.0.0&request=GetCapabilities"
+                    }, 
+                    {
+                        "linkDescription": "Web Map Service GetCapabilities", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/wms/regional/adak_ak_1sec.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+                    }, 
+                    {
+                        "linkDescription": "Download a subset of the NetCDF", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/ncss/regional/adak_ak_1sec.nc/dataset.html"
+                    }, 
+                    {
+                        "linkDescription": "NetCDF Markup Language file", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/ncml/regional/adak_ak_1sec.nc?catalog=https%3A%2F%2Fwww.ngdc.noaa.gov%2Fthredds%2Fcatalog%2Fregional%2Fcatalog.html&dataset=regionalDatasetScan%2Fadak_ak_1sec.nc"
+                    }
+                ], 
+                "modifiedDate": "2016-03-11", 
+                "parentIdentifier": null, 
+                "publicationDate": "2009-04-03", 
+                "revisionDate": null, 
+                "spatialBounding": {
+                    "coordinates": [
+                        [
+                            -177.24000000000001, 
+                            52.159999999999997
+                        ], 
+                        [
+                            -175.78, 
+                            51.25
+                        ]
+                    ], 
+                    "type": "envelope"
+                }, 
+                "stagedDate": 1481311740023, 
+                "temporalBounding": {
+                    "beginDate": "1933-01-01", 
+                    "beginIndeterminate": null, 
+                    "endDate": "2009-01-01", 
+                    "endIndeterminate": null, 
+                    "instant": null, 
+                    "instantIndeterminate": null
+                }, 
+                "thumbnail": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getGraphic/258", 
+                "title": "Adak, Alaska Coastal Digital Elevation Model", 
+                "topicCategories": [
+                    "elevation"
+                ]
+            }, 
+            "id": "gov.noaa.ngdc.mgg.dem:258", 
+            "type": "collection"
+        }, 
+        {
+            "attributes": {
+                "acquisitionInstruments": [
+                    {
+                        "instrumentDescription": null, 
+                        "instrumentIdentifier": null, 
+                        "instrumentType": "Sound Navigation and Ranging"
+                    }
+                ], 
+                "acquisitionOperations": [
+                    {
+                        "operationDescription": null, 
+                        "operationIdentifier": "NTHMP DEM Gridding Project", 
+                        "operationStatus": null, 
+                        "operationType": null
+                    }
+                ], 
+                "acquisitionPlatforms": [
+                    {
+                        "platformDescription": null, 
+                        "platformIdentifier": "Digital Elevation Model", 
+                        "platformSponsor": []
+                    }
+                ], 
+                "alternateTitle": null, 
+                "contacts": [
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": "resourceProvider"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "European Petroleum Survey Group", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": null, 
+                        "role": null
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "National Tsunami Hazard Mitigation Program (NTHMP)", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Kelly S. Caringan", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Lisa A. Taylor", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Barry W. Eakins", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "Matthew R. Love", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, Department of Commerce", 
+                        "role": "publisher"
+                    }, 
+                    {
+                        "individualName": "Jesse Varner", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Barry W. Eakins", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "NASA > National Aeronautics and Space Administration", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NOS/OCS > Office of Coast Survey, National Ocean Service, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "U.S. Army Corps of Engineers (USACE)", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "University of Alaska at Fairbanks", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "City of Unalaska, Alaska", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": null, 
+                        "organizationName": "DOC/NOAA/NOS National Ocean Service, NOAA, U.S. Department of Commerce", 
+                        "role": "originator"
+                    }, 
+                    {
+                        "individualName": "Peng, Ge", 
+                        "organizationName": "CICS-NC/NCEI", 
+                        "role": "author"
+                    }, 
+                    {
+                        "individualName": "Kelly Carignan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }, 
+                    {
+                        "individualName": "Anna Milan", 
+                        "organizationName": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                        "role": "pointOfContact"
+                    }
+                ], 
+                "creationDate": null, 
+                "dataFormats": [
+                    "ESRI ARC ASCII", 
+                    "NETCDF"
+                ], 
+                "description": "NOAA's National Geophysical Data Center (NGDC) is building high-resolution digital elevation models (DEMs) to support individual coastal States as part of the National Tsunami Hazard Mitigation Program's (NTHMP) efforts to improve community preparedness and hazard mitigation. These integrated bathymetric-topographic DEMs are used to support tsunami and coastal inundation mapping. Bathymetric, topographic, and shoreline data used in DEM compilation are obtained from various sources, including NGDC, the U.S. National Ocean Service (NOS), the U.S. Geological Survey (USGS), the U.S. Army Corps of Engineers (USACE), the Federal Emergency Management Agency (FEMA), and other federal, state, and local government agencies, academic institutions, and private companies. DEMs are referenced to various vertical and horizontal datums depending on the specific modeling requirements of each State. For specific datum information on each DEM, refer to the appropriate DEM documentation. Cell sizes also vary depending on the specification required by modelers in each State, but typically range from 8/15 arc-second (~16 meters) to 8 arc-seconds (~240 meters).", 
+                "doi": null, 
+                "fileIdentifier": "gov.noaa.ngdc.mgg.dem:4270", 
+                "gcmdDataCenters": [
+                    "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce", 
+                    "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                ], 
+                "gcmdDataResolution": [
+                    "V: < 1 meter"
+                ], 
+                "gcmdInstruments": [], 
+                "gcmdLocations": [
+                    "Continent > North America > United States Of America > Alaska", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean", 
+                    "Ocean > Pacific Ocean > North Pacific Ocean > Aleutian Islands", 
+                    "Vertical Location > Land Surface", 
+                    "Vertical Location > Sea Floor"
+                ], 
+                "gcmdPlatforms": [
+                    "DEM > Digital Elevation Model"
+                ], 
+                "gcmdProjects": [
+                    "ICSU-WDS > International Council for Science - World Data System"
+                ], 
+                "gcmdScience": [
+                    "Oceans > Bathymetry/Seafloor Topography > Seafloor Topography", 
+                    "Oceans > Bathymetry/Seafloor Topography > Bathymetry", 
+                    "Oceans > Bathymetry/Seafloor Topography > Water Depth", 
+                    "Land Surface > Topography > Terrain Elevation", 
+                    "Land Surface > Topography > Topographical Relief Maps", 
+                    "Oceans > Coastal Processes > Coastal Elevation"
+                ], 
+                "keywords": [
+                    "Coastal Relief", 
+                    "Gridded elevations", 
+                    "Integrated bathymetry and topography", 
+                    "Unalaska", 
+                    "Iliuliuk Bay", 
+                    "Dutch Harbor", 
+                    "Aleutian Islands"
+                ], 
+                "links": [
+                    {
+                        "linkDescription": "Download DEM, metadata and readme file.", 
+                        "linkFunction": "download", 
+                        "linkName": "Unalaska, Alaska Coastal Digital Elevation Model ASCII DEM", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getArchive/4270?gridFormat=ESRI+Arc+ASCII"
+                    }, 
+                    {
+                        "linkDescription": "Information, preview and access DEM, metadata record and development report.", 
+                        "linkFunction": "information", 
+                        "linkName": "Unalaska, Alaska Coastal Digital Elevation Model Homepage", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/download/4270"
+                    }, 
+                    {
+                        "linkDescription": "Text search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "DEM text search tool", 
+                        "linkUrl": "http://www.ngdc.noaa.gov/dem/squareCellGrid/search"
+                    }, 
+                    {
+                        "linkDescription": "Graphic geo-spatial search tool for locating completed and planned DEMs.", 
+                        "linkFunction": "search", 
+                        "linkName": "Map Interface", 
+                        "linkUrl": "https://www.ngdc.noaa.gov/dem/squareCellGrid/map"
+                    }, 
+                    {
+                        "linkDescription": "OPeNDAP Dataset Access Form", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/unalaska_ak_815.nc.html"
+                    }, 
+                    {
+                        "linkDescription": "Download NetCDF File", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/fileServer/regional/unalaska_ak_815.nc"
+                    }, 
+                    {
+                        "linkDescription": "Web Coverage Service GetCapabilities", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/wcs/regional/unalaska_ak_815.nc?service=WCS&version=1.0.0&request=GetCapabilities"
+                    }, 
+                    {
+                        "linkDescription": "Web Map Service GetCapabilities", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/wms/regional/unalaska_ak_815.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+                    }, 
+                    {
+                        "linkDescription": "Download a subset of the NetCDF", 
+                        "linkFunction": "download", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/ncss/regional/unalaska_ak_815.nc/dataset.html"
+                    }, 
+                    {
+                        "linkDescription": "NetCDF Markup Language file", 
+                        "linkFunction": "information", 
+                        "linkName": null, 
+                        "linkUrl": "https://www.ngdc.noaa.gov/thredds/ncml/regional/unalaska_ak_815.nc?catalog=https%3A%2F%2Fwww.ngdc.noaa.gov%2Fthredds%2Fcatalog%2Fregional%2Fcatalog.html&dataset=regionalDatasetScan%2Funalaska_ak_815.nc"
+                    }
+                ], 
+                "modifiedDate": "2016-03-11", 
+                "parentIdentifier": null, 
+                "publicationDate": "2012-10-16", 
+                "revisionDate": null, 
+                "spatialBounding": {
+                    "coordinates": [
+                        [
+                            -166.66, 
+                            53.950000000000003
+                        ], 
+                        [
+                            -166.41999999999999, 
+                            53.799999999999997
+                        ]
+                    ], 
+                    "type": "envelope"
+                }, 
+                "stagedDate": 1481311742503, 
+                "temporalBounding": {
+                    "beginDate": "1934-01-01", 
+                    "beginIndeterminate": null, 
+                    "endDate": "2012-08-01", 
+                    "endIndeterminate": null, 
+                    "instant": null, 
+                    "instantIndeterminate": null
+                }, 
+                "thumbnail": "https://www.ngdc.noaa.gov/dem/squareCellGrid/getGraphic/4270", 
+                "title": "Unalaska, Alaska Coastal Digital Elevation Model", 
+                "topicCategories": [
+                    "elevation"
+                ]
+            }, 
+            "id": "gov.noaa.ngdc.mgg.dem:4270", 
+            "type": "collection"
+        }
+    ], 
+    "meta": {
+        "facets": {
+            "dataCenters": {
+                "DOC/NOAA/NESDIS/NCEI": {
+                    "count": 4
+                }, 
+                "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce": {
+                    "count": 4
+                }, 
+                "DOC/NOAA/NESDIS/NGDC": {
+                    "count": 4
+                }, 
+                "DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce": {
+                    "count": 4
+                }
+            }, 
+            "dataResolution": {
+                "H: 1 meter - < 30 meters": {
+                    "count": 3
+                }, 
+                "V: < 1 meter": {
+                    "count": 4
+                }
+            }, 
+            "instruments": {}, 
+            "locations": {
+                "Continent": {
+                    "count": 4
+                }, 
+                "Continent > North America": {
+                    "count": 4
+                }, 
+                "Continent > North America > United States Of America": {
+                    "count": 4
+                }, 
+                "Continent > North America > United States Of America > Alaska": {
+                    "count": 4
+                }, 
+                "Ocean": {
+                    "count": 4
+                }, 
+                "Ocean > Pacific Ocean": {
+                    "count": 4
+                }, 
+                "Ocean > Pacific Ocean > North Pacific Ocean": {
+                    "count": 4
+                }, 
+                "Ocean > Pacific Ocean > North Pacific Ocean > Aleutian Islands": {
+                    "count": 4
+                }, 
+                "Vertical Location": {
+                    "count": 4
+                }, 
+                "Vertical Location > Land Surface": {
+                    "count": 4
+                }, 
+                "Vertical Location > Sea Floor": {
+                    "count": 4
+                }
+            }, 
+            "platforms": {
+                "DEM": {
+                    "count": 4
+                }, 
+                "DEM > Digital Elevation Model": {
+                    "count": 4
+                }
+            }, 
+            "projects": {
+                "ICSU-WDS": {
+                    "count": 4
+                }, 
+                "ICSU-WDS > International Council for Science - World Data System": {
+                    "count": 4
+                }
+            }, 
+            "science": {
+                "Land Surface": {
+                    "count": 4
+                }, 
+                "Land Surface > Topography": {
+                    "count": 4
+                }, 
+                "Land Surface > Topography > Terrain Elevation": {
+                    "count": 4
+                }, 
+                "Land Surface > Topography > Topographical Relief Maps": {
+                    "count": 4
+                }, 
+                "Oceans": {
+                    "count": 4
+                }, 
+                "Oceans > Bathymetry/Seafloor Topography": {
+                    "count": 4
+                }, 
+                "Oceans > Bathymetry/Seafloor Topography > Bathymetry": {
+                    "count": 4
+                }, 
+                "Oceans > Bathymetry/Seafloor Topography > Seafloor Topography": {
+                    "count": 4
+                }, 
+                "Oceans > Bathymetry/Seafloor Topography > Water Depth": {
+                    "count": 4
+                }, 
+                "Oceans > Coastal Processes": {
+                    "count": 4
+                }, 
+                "Oceans > Coastal Processes > Coastal Elevation": {
+                    "count": 4
+                }
+            }
+        }, 
+        "took": 5, 
+        "total": 4
+    }
+}
