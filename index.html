@@ -41,6 +41,17 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
+d3.json("json_response_pretty.json", function(error, blah) {
+     dataset = blah;
+     dataset = dataset.data.map(function(d) {
+      var stuff = d3.values(d);
+      morestuff = stuff.map(function(d) {
+        allthestuff = d3.keys(d);
+        console.log(allthestuff);
+      })
+     });
+});    
+
 d3.json("data.json", function(error, data) {
 
   data.forEach(function(d) {
