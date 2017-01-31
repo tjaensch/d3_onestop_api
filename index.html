@@ -81,7 +81,25 @@ d3.json("json_response_pretty.json", function(d) {
           counts[num] = counts[num] ? counts[num]+1 : 1;
         };
       });
+
       console.log(counts)
+
+      var dict = [];
+      for(var key in counts) {
+        var val = counts[key];
+        dict.push({
+          count: val,
+          keyword: key
+        });
+      }
+
+      console.log(dict);
+      
+
+      // console.log(counts);
+      // console.log(Object.keys(counts));
+      // console.log(Object.values(counts));
+      
 }); 
 
 </script>
