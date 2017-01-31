@@ -17,12 +17,12 @@ body {
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="js/d3.legend.js"></script>
+<script src="d3.legend.js"></script>
 <script>
 
 var width = 960,
     height = 600,
-    radius = Math.min(width, height) / 2;
+    radius = Math.min(width, height) / 3;
 
 var color = d3.scale.ordinal()
     .range(["#f7fcfd", "#e5f5f9", "#ccece6", "#99d8c9", "#66c2a4", "#41ae76", "#238b45", "#006d2c", "#00441b", '#d9d9d9','#bdbdbd','#969696','#737373','#525252','#252525','#000000','#ef3b2c','#cb181d','#a50f15','#67000d', '#54278f', '#3f007d']);
@@ -53,7 +53,7 @@ d3.json("json_response_pretty.json", function(d) {
       });
       // console.log(counts)
 
-      // Create array of objects of search results for D3 to loop over
+      // Create array of objects of search results to be used by D3
       var data = [];
       for(var key in counts) {
         var val = counts[key];
