@@ -21,11 +21,11 @@ body {
 <script>
 
 var width = 960,
-    height = 500,
+    height = 600,
     radius = Math.min(width, height) / 2;
 
 var color = d3.scale.ordinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    .range(["#f7fcfd", "#e5f5f9", "#ccece6", "#99d8c9", "#66c2a4", "#41ae76", "#238b45", "#006d2c", "#00441b", '#d9d9d9','#bdbdbd','#969696','#737373','#525252','#252525','#000000','#ef3b2c','#cb181d','#a50f15','#67000d', '#54278f', '#3f007d']);
 
 var arc = d3.svg.arc()
     .outerRadius(radius - 10)
@@ -33,7 +33,7 @@ var arc = d3.svg.arc()
 
 var pie = d3.layout.pie()
     .sort(null)
-    .value(function(d) { return d.population; });
+    .value(function(d) { return d.count; });
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -41,64 +41,53 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-d3.json("data.json", function(error, data) {
-
-  data.forEach(function(d) {
-    d.population = +d.population;
-  });
-
-  var g = svg.selectAll(".arc")
-      .data(pie(data))
-      .enter().append("g")
-      .attr("class", "arc");
-
-  g.append("path")
-      .attr("d", arc)
-      .attr("data-legend", function(d) { return d.data.age; })
-      .attr("data-legend-pos", function(d, i) { return i; })
-      .style("fill", function(d) { return color(d.data.age); });
-
-  g.append("text")
-      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-      .attr("dy", ".35em")
-      .style("text-anchor", "middle");
-
-  var padding = 20,
-    legx = radius + padding,
-    legend = svg.append("g")
-    .attr("class", "legend")
-    .attr("transform", "translate(" + legx + ", 0)")
-    .style("font-size", "12px")
-    .call(d3.legend);
-});
-
 d3.json("json_response_pretty.json", function(d) {
       var counts = {};
       d.data.forEach(function(d) {
+        // Retrieve the keywords from the JSON API response and count frequency of each one across all search results
         arr = d.attributes.keywords
         for(var i = 0; i<arr.length; i++) {
           var num = arr[i];
           counts[num] = counts[num] ? counts[num]+1 : 1;
         };
       });
+      // console.log(counts)
 
-      console.log(counts)
-
-      var dict = [];
+      // Create array of objects of search results for D3 to loop over
+      var data = [];
       for(var key in counts) {
         var val = counts[key];
-        dict.push({
+        data.push({
           count: val,
           keyword: key
         });
       }
+      console.log(data);
 
-      console.log(dict);
-      
+      // Produce pie chart with data
+      var g = svg.selectAll(".arc")
+          .data(pie(data))
+          .enter().append("g")
+          .attr("class", "arc");
 
-      // console.log(counts);
-      // console.log(Object.keys(counts));
-      // console.log(Object.values(counts));
+      g.append("path")
+          .attr("d", arc)
+          .attr("data-legend", function(d) { return d.data.keyword; })
+          .attr("data-legend-pos", function(d, i) { return i; })
+          .style("fill", function(d) { return color(d.data.keyword); });
+
+      g.append("text")
+          .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+          .attr("dy", ".35em")
+          .style("text-anchor", "middle");
+
+      var padding = 20,
+        legx = radius + padding,
+        legend = svg.append("g")
+        .attr("class", "legend")
+        .attr("transform", "translate(" + legx + ", 0)")
+        .style("font-size", "12px")
+        .call(d3.legend);
       
 }); 
 
