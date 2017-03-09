@@ -34,10 +34,16 @@ d3.csv("data.csv", function(d) {
 
   var root = d3.stratify()
       .id(function(d) { return d.keyword; })
-      .parentId(function(d) { return d.keyword.substring(0, d.keyword.lastIndexOf("/")); })
+      .parentId(function(d) { return d.keyword.substring(0, d.keyword.lastIndexOf("/"));})
     (data)
       .sum(function(d) { return d.count; })
       .sort(function(a, b) { return b.height - a.height || b.value - a.value; });
+
+  var nested = d3.nest()
+  .key(function(d) { return d.keyword})
+  .key(function(d) { return d.count})
+  .entries(data);
+  console.log(JSON.stringify(nested, undefined, 2));
 
   treemap(root);
 
