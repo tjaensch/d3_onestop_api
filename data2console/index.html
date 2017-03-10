@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script>
+
+	/* d3.json("data.json", function(error, d) {
+		if (error) return console.error(error);
+		console.log(JSON.stringify(d, undefined, 2))
+		
+	}); */
+
+	d3.json("data.json", function(d) {
+
+		var titles = d3.nest()
+			.key(function(d) {return d.attributes.title})
+			.key(function(d) {return d.attributes.keywords})
+			.key(function(d) {return d.attributes.keywords})
+			.rollup(function(v) { return v.length })
+			.entries(d.data);
+
+			console.log(JSON.stringify(titles, undefined, 2));
+
+	});
+
+</script>
