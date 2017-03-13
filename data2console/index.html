@@ -15,7 +15,13 @@
 			.key(function(d) {return d.attributes.title})
 			.key(function(d) {return d.attributes.keywords})
 			.rollup(function(v) { return v.length })
-			.map(d.data);
+			.entries(d.data)
+			.map(function(w) {
+				return {
+					name: w.key,
+					children: w.values,
+				}
+			});
 
 			console.log(JSON.stringify(titles, undefined, 2));
 
