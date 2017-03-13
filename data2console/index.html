@@ -14,9 +14,8 @@
 		var titles = d3.nest()
 			.key(function(d) {return d.attributes.title})
 			.key(function(d) {return d.attributes.keywords})
-			.key(function(d) {return d.attributes.keywords})
 			.rollup(function(v) { return v.length })
-			.entries(d.data);
+			.map(d.data);
 
 			console.log(JSON.stringify(titles, undefined, 2));
 
